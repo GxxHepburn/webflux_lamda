@@ -10,6 +10,9 @@ public class User {
     private String gender;
     private Integer age;
 
+    public User() {
+    }
+
     public User(String name, String gender, Integer age) {
         this.name = name;
         this.gender = gender;
